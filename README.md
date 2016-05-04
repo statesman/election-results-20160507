@@ -7,6 +7,8 @@ Thought is to have a two pronged project:
 
 But we also have to take into account this is a City of Austin election, so it has some williamson results, and therefore might be closer to the earlier [elex-maps](https://github.com/statesman/elex-maps) repo.
 
+These directions are based on the March 2016 primary. I'll have to figure out how Williamson results play into this.
+
 ## Travis precincts
 
 Get the file from [Travis county elections](elections@traviscoutytx.gov). I typically reach out to Ginny Ballard in advance and ask her to ftp it to ftp.statesman.com. Perhaps for the general we can get the races in advance?
