@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "Travis County March 1, 2016 primary election results by precinct  | Statesman.com",
-    "description" => "Precinct-level results for the March 1, 2016 election.",
-    "thumbnail" => "http://projects.statesman.com/databases/election-map-20160301/assets/social-share.png", // needs update
+    "title" => "Travis County May 7, 2016 municipal election results by precinct  | Statesman.com",
+    "description" => "Precinct-level results for the May 7, 2016 election.",
+    "thumbnail" => "http://projects.statesman.com/databases/election-map-20160507/assets/social-share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/databases/election-map-20160301/",
+    "url" => "http://projects.statesman.com/databases/election-map-20160507/",
     "twitter" => "statesman"
   );
 ?>
@@ -67,7 +67,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Travis precincts <span class="sr-only">(current)</span></a></li>
-        <li><a href="county-results/">President by county</a></li>
         <li><a href="http://www.statesman.com/s/elections-guide/#central-texas-results" target="_blank">More election coverage</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
@@ -99,9 +98,9 @@
           </optgroup>
           <optgroup label="Other cities">
             <option data-zoom="-1" data-center="30.329632, -97.758797" value="vba3">THREE ALDERMEN, VILLAGE OF BRIARCLIFF</option>
-            <option data-zoom="-1" data-center="30.329632, -97.758797" value="bc1">PROPOSITION NO. 1, CITY OF BEE CAVE</option>
-            <option data-zoom="-1" data-center="30.329632, -97.758797" value="bc2">PROPOSITION NO. 2, CITY OF BEE CAVE</option>
-            <option data-zoom="-1" data-center="30.329632, -97.758797" value="bc3">PROPOSITION NO. 3, CITY OF BEE CAVE</option>
+            <option data-zoom="+1" data-center="30.306279, -97.965280" value="bc1">PROPOSITION NO. 1, CITY OF BEE CAVE</option>
+            <option data-zoom="+1" data-center="30.306279, -97.965280" value="bc2">PROPOSITION NO. 2, CITY OF BEE CAVE</option>
+            <option data-zoom="+1" data-center="30.306279, -97.965280" value="bc3">PROPOSITION NO. 3, CITY OF BEE CAVE</option>
             <option data-zoom="-1" data-center="30.329632, -97.758797" value="vv1">PROP. 1, VILLAGE OF VOLENTE</option>
             <option data-zoom="-1" data-center="30.329632, -97.758797" value="vv2">PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority ""No"" Vote on Proposition 1)</option>
           </optgroup>

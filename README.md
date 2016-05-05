@@ -35,6 +35,14 @@ GROUP BY
     1,2,3,4
 ```
 
+``` sql
+put will go results here?
+
+But remove the W
+
+```
+
+
 * I then exported that to `/results/travis.csv`. (This might need to be done with each field quoted.)
 * I did a separate query to get the titles so I can build the files list for processing:
 
@@ -89,7 +97,17 @@ The `data-zoom` and `data-center` options there can be used to center the map fo
 
 ### Creating the JSON files
 
-The script `races.py` walks through the `results/travis.csv` and and `results/williamson.csv` files to combine them. I took the contents of my `contest_titles_travis_py.csv` file and replaced what was at the bottom of `races.py` and then ran the python script. (It did fail first when I didn't have a `williamson.csv` file it expected.)
+Need to start into virutal env:
+``` bash
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+For the 20160507 election, before running `races.py`, I had to take the Williamson precincts out of the Travis returns and put them in  `williamson.csv`, removing the "W" from the precinct number.
+
+The script `races.py` walks through the `results/travis.csv` and `results/williamson.csv` files to combine them. I took the contents of my `contest_titles_travis_py.csv` file and replaced what was at the bottom of `races.py` and then ran the python script.
+
+(If there are no williamson results and that file `williamson.csv` is empty, it will fail. Just put headers only in that file and it will be OK.
 
 ### Updating index.php
 

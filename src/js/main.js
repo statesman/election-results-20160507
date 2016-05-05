@@ -24,7 +24,7 @@
   $(function() {
 
     var map = new ElectionMap('#map');
-    map.drawWinners("p-d");
+    map.drawWinners("ap1");
 
     $("#address").geocomplete({
       map: map.gmap.map,
