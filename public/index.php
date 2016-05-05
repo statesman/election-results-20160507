@@ -95,11 +95,41 @@
           <label for="race" class="control-label">Choose a race:</label>
           <select class="form-control" id="race" name="race">
           <optgroup label="City of Austin">
-            <option data-zoom="-1" data-center="30.329632, -97.758797" value="p-d">PRESIDENT - DEM</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="ap1">PROPOSITION 1, CITY OF AUSTIN</option>
           </optgroup>
-          <optgroup label="Other races">
-            <option data-zoom="+1" data-center="30.137376, -97.716907" value="ss21-d">DISTRICT 21, STATE SENATOR - DEM</option>
-            <option data-zoom="+1" data-center="30.336957, -98.009545" value="ss24-d">DISTRICT 24, STATE SENATOR - DEM</option>
+          <optgroup label="Other cities">
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="vba3">THREE ALDERMEN, VILLAGE OF BRIARCLIFF</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="bc1">PROPOSITION NO. 1, CITY OF BEE CAVE</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="bc2">PROPOSITION NO. 2, CITY OF BEE CAVE</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="bc3">PROPOSITION NO. 3, CITY OF BEE CAVE</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="vv1">PROP. 1, VILLAGE OF VOLENTE</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="vv2">PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority ""No"" Vote on Proposition 1)</option>
+          </optgroup>
+          <optgroup label="School districts">
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="mp">PROPOSITION, MANOR ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="pisd3">PLACE 3, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="pisd4">PLACE 4, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="pisd5">PLACE 5, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="ltisd3">PLACE 3, BOARD OF TRUSTEES, LAKE TRAVIS ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="ltist4">PLACE 4, BOARD OF TRUSTEES, LAKE TRAVIS ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="ltisd5">PLACE 5, BOARD OF TRUSTEES, LAKE TRAVIS ISD</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="ltisd7">PLACE 7, BOARD OF TRUSTEES, LAKE TRAVIS ISD</option>
+          </optgroup>
+          <optgroup label="Utility districts">
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="rpud">BOARD OF DIRECTORS, RIVER PLACE MUNICIPAL UTILITY DISTRICT</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="lwud">DIRECTORS, LAKEWAY MUNICIPAL UTILITY DISTRICT</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="tcmudd">DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 22</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="tdmud1">PROPOSITION 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 22</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="tdmud2">PROPOSITION 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 22</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="tdmud3">PROPOSITION 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 22</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="tdmud5">PROPOSITION 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 22</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="tdmud1">PROPOSITION 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 22</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="wtcmud31">PLACE 1, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 3</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="wtcmud33">PLACE 3, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 3</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="wtcmud34">PLACE 4, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 3</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="wtcmud51">PLACE 1, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 5</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="wtcmud54">PLACE 4, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 5</option>
+            <option data-zoom="-1" data-center="30.329632, -97.758797" value="wtcmud55">PLACE 5, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 5</option>
           </optgroup>
           </select>
         </div>

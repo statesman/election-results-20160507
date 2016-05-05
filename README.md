@@ -35,7 +35,7 @@ GROUP BY
     1,2,3,4
 ```
 
-* I then exported that to `/results/travis.csv`
+* I then exported that to `/results/travis.csv`. (This might need to be done with each field quoted.)
 * I did a separate query to get the titles so I can build the files list for processing:
 
 ``` sql
