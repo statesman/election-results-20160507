@@ -24,13 +24,13 @@ Travis County Clerk – Elections Division
 
 ``` sql
 SELECT
-    `20160301_Travis`.`Precinct_name`,
-    `20160301_Travis`.`Contest_title`,
-    `20160301_Travis`.`candidate_name`,
-    `20160301_Travis`.`Party_Code`,
-    sum(`20160301_Travis`.`total_votes`)
+    `20160507_Travis`.`Precinct_name`,
+    `20160507_Travis`.`Contest_title`,
+    `20160507_Travis`.`candidate_name`,
+    `20160507_Travis`.`Party_Code`,
+    sum(`20160507_Travis`.`total_votes`)
 FROM
-    `20160301_Travis`
+    `20160507_Travis`
 GROUP BY
     1,2,3,4
 ```
@@ -40,10 +40,11 @@ GROUP BY
 
 ``` sql
 SELECT DISTINCT
-`20160301_Travis`.`Contest_title`
+`20160507_Travis`.`Contest_title`
 FROM
-`20160301_Travis`
+`20160507_Travis`
 ```
+
 
 * I then took each line of that file and started creating the python array in a file called `contest_titles_travis_py.csv`. It looks something like this:
 
@@ -52,7 +53,17 @@ build_race_file(["PRESIDENT - DEM"], 'p-d')
 build_race_file(["DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM"], 'rd35-d')
 ```
 
-The last field has to be unique for the race, and will be used in the name of the JSON file, and for the dropdown in the map. I had to decide myself what to call each race.
+Regex find:
+```
+^(".*")
+```
+
+Regex replace:
+```
+build_race_file([\1], 'uniqueID')
+```
+
+I had to replace `uniqueID` with something unique to each race that I decided myself. It is used to match the JSON file, and for the dropdown in the map (contest_selects below).
 
 I then used regex on that to create `contest_selects_travis.txt`, which is formatted like this and later added to the html page of results:
 
@@ -60,6 +71,16 @@ I then used regex on that to create `contest_selects_travis.txt`, which is forma
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p-d">PRESIDENT - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="rd35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
 
+```
+
+The regex search string:
+```
+^build_race_file\(\["(.*)"\], '(.*)'\)
+```
+
+The regex replace string:
+```
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="\2">\1</option>
 ```
 
 The `data-zoom` and `data-center` options there can be used to center the map for that race, which I did after everything else was done.
