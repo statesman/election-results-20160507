@@ -67,7 +67,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Travis precincts <span class="sr-only">(current)</span></a></li>
-        <li><a href="http://www.statesman.com/s/elections-guide/#local-races" target="_blank">More election coverage</a></li>
+        <li><a href="http://www.statesman.com/elections" target="_blank">More election coverage</a></li>
         <li class="visible-xs small-social"><a target"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -86,7 +86,7 @@
         <h4>2016 Municipal Elections</h4>
         <h1 class="page-title">Precinct-by-precinct results</h1>
         <p class="author">Interactive by Christian McDonald, Austin American-Statesman</p>
-        <p>Use the dropdown to choose a race from the May 7, 2016 elections to see the highest vote-getter for each precinct. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct.</p>
+        <p>Use the dropdown to choose a race from the May 7, 2016 elections to see the highest vote-getter for each precinct. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Results are from Travis County, including Williamson County precincts that fall within the City of Austin. Hays County precincts are not included.</p>
       </div>
 
       <div class="form-group clearfix">
