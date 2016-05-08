@@ -26,4 +26,4 @@ build_race_file(["PLACE 1, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRI
 build_race_file(["PLACE 4, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 5"], 'wtcmud54')
 build_race_file(["PLACE 5, DIRECTOR, WEST TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 5"], 'wtcmud55')
 build_race_file(["PROP. 1, VILLAGE OF VOLENTE"], 'vv1')
-build_race_file(["PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority ""No"" Vote on Proposition 1)"], 'vv2')
+build_race_file(["PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority 'No' Vote on Proposition 1)"], 'vv2')

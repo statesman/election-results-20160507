@@ -102,7 +102,7 @@
             <option data-zoom="+2" data-center="30.290388, -98.020727" value="bc2">PROPOSITION NO. 2, CITY OF BEE CAVE</option>
             <option data-zoom="+2" data-center="30.290388, -98.020727" value="bc3">PROPOSITION NO. 3, CITY OF BEE CAVE</option>
             <option data-zoom="+2" data-center="30.435466, -97.901611" value="vv1">PROP. 1, VILLAGE OF VOLENTE</option>
-            <option data-zoom="+2" data-center="30.435466, -97.901611" value="vv2">PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority "No" Vote on Proposition 1)</option>
+            <option data-zoom="+2" data-center="30.435466, -97.901611" value="vv2">PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority 'No' Vote on Proposition 1)</option>
           </optgroup>
           <optgroup label="School districts">
             <option data-zoom="+1" data-center="30.350926, -97.523613" value="mp">PROPOSITION, MANOR ISD</option>
