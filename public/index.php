@@ -94,7 +94,7 @@
           <label for="race" class="control-label">Choose a race:</label>
           <select class="form-control" id="race" name="race">
           <optgroup label="City of Austin">
-            <option data-zoom="-1" data-center="30.329632, -97.758797" value="ap1">PROPOSITION 1, CITY OF AUSTIN</option>
+            <option data-zoom="+1" data-center="30.329632, -97.758797" value="ap1">PROPOSITION 1, CITY OF AUSTIN</option>
           </optgroup>
           <optgroup label="Other cities">
             <option data-zoom="+1" data-center="30.390526, -98.085803" value="vba3">THREE ALDERMEN, VILLAGE OF BRIARCLIFF</option>
@@ -102,7 +102,7 @@
             <option data-zoom="+2" data-center="30.290388, -98.020727" value="bc2">PROPOSITION NO. 2, CITY OF BEE CAVE</option>
             <option data-zoom="+2" data-center="30.290388, -98.020727" value="bc3">PROPOSITION NO. 3, CITY OF BEE CAVE</option>
             <option data-zoom="+2" data-center="30.435466, -97.901611" value="vv1">PROP. 1, VILLAGE OF VOLENTE</option>
-            <option data-zoom="+2" data-center="30.435466, -97.901611" value="vv2">PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority ""No"" Vote on Proposition 1)</option>
+            <option data-zoom="+2" data-center="30.435466, -97.901611" value="vv2">PROP. 2, VILLAGE OF VOLENTE  (Conditional Upon a Majority "No" Vote on Proposition 1)</option>
           </optgroup>
           <optgroup label="School districts">
             <option data-zoom="+1" data-center="30.350926, -97.523613" value="mp">PROPOSITION, MANOR ISD</option>
